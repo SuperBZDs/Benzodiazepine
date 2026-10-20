@@ -1,0 +1,18 @@
+输入：GSE10072_series_matrix.txt.gz
+log2 转换：否（数据看起来已经是 log 尺度）
+样本：tumor 58，normal 49；参与检验的探针 22283，合并后基因 14426
+阈值：FDR < 0.05，|log2FC| >= 1.00
+显著：共 599（上调 206，下调 393）
+合并方式：每个基因取平均表达最高的探针
+
+FDR 最小的 10 个：
+  209074_s_at    FAM107A    log2FC=-3.37  FDR=1.48e-39
+  204677_at      CDH5       log2FC=-2.62  FDR=9.78e-37
+  208982_at      PECAM1     log2FC=-1.81  FDR=1.87e-35
+  213103_at      STARD13    log2FC=-1.22  FDR=2.33e-35
+  210081_at      AGER       log2FC=-4.42  FDR=1.52e-34
+  202112_at      VWF        log2FC=-2.26  FDR=3.97e-34
+  219719_at      HIGD1B     log2FC=-1.36  FDR=3.97e-34
+  209875_s_at    SPP1       log2FC=+4.36  FDR=3.97e-34
+  203980_at      FABP4      log2FC=-3.84  FDR=4.57e-34
+  204719_at      ABCA8      log2FC=-2.96  FDR=5.27e-34
